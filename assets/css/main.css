@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Carter+One&display=swap');
+
+
+/*----nav----*/
+
+
+
+
+li {
+  border-right: 0px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+.active {
+  background-color: lightgray;
+}
+
+
+.uppercase {
+
+  text-transform: uppercase;
+
+  font-size: 1.2em;
+  font-family: 'Bebas Neue', cursive;
+}
+
+/*----header-----*/
+.header-font {
+  font-family: 'Carter One', cursive;
+  font-size: 1.5em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.header-sub-font {
+
+  font-size: 16px;
+}
+
+
+/*----main----*/
+
+
+.main-bg {
+
+  background: transparent url('/assets/images/main-bg-image1.jpeg') no-repeat center center /cover;
+  border-width: 1px 0px 1px 0px;
+  border-style: solid;
+  border-color: orangered;
+padding: 0;
+margin: 0;
+  min-height: 350px;
+ 
+}
+
+.main-left {
+
+  background-color:rgba(255,255,255,0.3); 
+padding-top: 10px;
+
+}
+
+
+
+.main-right {
+  padding-top: 10px;
+  font-size: 1.5em;
+  font-family: 'Bebas Neue', cursive;
+ color:;
+  position:relative;
+  right:0px;
+  bottom:0px;
+
+}
+
+/* ----cards----*/
+
+.card-body {}
+
+.card-title {
+  font-size: 1.5em;
+  font-family: 'Bebas Neue', cursive;
+  margin: 0 auto;
+
+}
+
+.card-text {
+  font-style: italic;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 1em;
+  margin-bottom: 5px;
+
+}
+
+
+/*----tabs----*/
+.tab-pane {
+
+  background-color: orangered;
+
+}
+
