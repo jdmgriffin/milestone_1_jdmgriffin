@@ -40,8 +40,8 @@ Give an example
 ```
 
 ### And coding style tests
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/f1d7b952d6474ccabd27c70d44a970b2)](https://www.codacy.com/manual/jdmgriffin/milestone_1_jdmgriffin?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=jdmgriffin/milestone_1_jdmgriffin&amp;utm_campaign=Badge_Grade)
 
-Explain what these tests test and why
 
 ```
 Give an example
