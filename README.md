@@ -9,7 +9,9 @@ To make the website as clear as possible to the user as to the service ARS provi
 * User goal: clearly be able to see contact routes for the service provider
 * User goal: see previous customer experience to help me make my choice.
 
-ARSwireframe.pdf
+## Wireframe
+
+http://jdmgriffin.github.io/milestone_1_jdmgriffin/assets/support_docs/ARSwireframe.pdf
 
 ## Features
 Homepage With clearly defined areas for Brand, Menu, Call to action: Phone Number
@@ -24,8 +26,8 @@ Contact Clear simple contact information and facilities for the user to be able 
 
 ## Technologies Used
 
-•	JQuery
-o	The project uses JQuery to simplify DOM manipulation.
+•	technology
+o	why
 
 ## Testing
 
