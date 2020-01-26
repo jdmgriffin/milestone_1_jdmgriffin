@@ -1,5 +1,7 @@
 # Milestone Project by Jeff Griffin
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/408cc9a161ab480b93bb245cf6d279ba)](https://app.codacy.com/manual/jdmgriffin/milestone_1_jdmgriffin?utm_source=github.com&utm_medium=referral&utm_content=jdmgriffin/milestone_1_jdmgriffin&utm_campaign=Badge_Grade_Dashboard)
+
 This Milestone project will be based for a company called All Repair, specializing in all appliance repair in Galway, Ireland.
 
 ## Getting Started
