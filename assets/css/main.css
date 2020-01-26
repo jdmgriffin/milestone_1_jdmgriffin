@@ -23,15 +23,17 @@
 
 }
 
-/*----nav----*/
-
-.bg-light {
-
-  background-color: orange !important;
+.btn-call-us:hover {
+  box-shadow: 0 5px 5px 0 rgba(0,0,0,0.24), 0 5px 5px 0 rgba(0,0,0,0.19);
 }
 
+
+
+/*----nav----*/
+
+
 .navbar-brand, .navbar, .navbar-nav, .nav-link {
-  background-color: orange;
+
   color: black;
   cursor: pointer;
   font-size: 1.2em;
@@ -84,9 +86,19 @@ a:active {
 /*----main----*/
 
 
-.main-bg {
-
+.main-bg-index {
   background: transparent url('../images/main-bg-image1.jpeg') no-repeat center center /cover;
+}
+
+.main-bg-service {
+  background: transparent url('../images/main-dishwasher.jpg') no-repeat center center /cover;
+}
+
+.main-bg-contact {
+  background: transparent url('../images/main-fridge.jpg') no-repeat center center /cover;
+}
+
+.main-bg {
   border-width: 1px 0px 1px 0px;
   border-style: solid;
   border-color: orangered;
@@ -140,7 +152,7 @@ a:active {
 
 }
 
-.main-right-text-services{
+.main-right-text-services {
  font-family: Roboto, sans-serif;
  text-align: left;
   font-size: 0.75em;
@@ -171,7 +183,7 @@ a:active {
 }
 
 .card-text {
-  font-style: italic;
+
   font-family: 'Bebas Neue', cursive;
   font-size: 1em;
   margin-bottom: 5px;
@@ -179,7 +191,7 @@ a:active {
 }
 
 .card-customer {
-  font-family: 'Bilbo', cursive;
+  font-family: 'Roboto', cursive;
 
 }
 
@@ -188,21 +200,3 @@ a:active {
   height:auto;
 }
 
-
-/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
-@media screen and (min-width: 601px) {
-  .card-customer {
-    font-family: 'Bilbo', cursive;
-    font-size: 2.5vw;
-  }
-
-
-/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
-@media screen and (max-width: 600px) {
-  .card-customer {
-    font-family: 'Bilbo', cursive;
-    font-size: 32px;
-  }
-
-}
-}
