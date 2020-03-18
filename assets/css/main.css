@@ -18,6 +18,7 @@ font-family: 'Bebas Neue', cursive;
 }
 
 .btn-call-us:hover {
+  
   box-shadow: 0 5px 5px 0 rgba(0,0,0,0.24), 0 5px 5px 0 rgba(0,0,0,0.19);
 }
 
@@ -70,7 +71,7 @@ a:active {
 /*----main----*/
 
 .main-bg-home {
-  background: transparent url('../images/main-bg-image1.jpeg') no-repeat top center /cover;
+  background: transparent url('../images/main-washing_machine.jpg') no-repeat top center /cover;
 }
 
 .main-bg-service {
@@ -102,7 +103,7 @@ a:active {
 
 .main-right {
   background-color: rgba(255, 255, 255, 0.4);
-  padding: 10px 0px 0px 10px;
+  padding: 10px 0px 20px 10px;
   font-family: 'Bebas Neue', cursive;
   color: #000000;
   vertical-align: middle;
@@ -111,57 +112,47 @@ a:active {
 
 }
 
-.main-right-text {
-
-  text-align: right;
+.main-right-headline {
   padding: 0px;
-  margin-bottom: 10px;
-  color: #000;
+  color: black;
   text-align: left;
+  font-size: 3rem;
 }
 
 /* ----cards----*/
 
 .card {
-
-  border-radius: 0px;
-  border: 0px;
-  border-width: 1px ;
+  border-width: 0px 1px 1px 0px ;
   border-style: solid;
-  border-color: black;
+  border-color: gold;
 }
-
+.card-body {
+  padding: 10px 10px 10px 10px;
+  
+}
 .card-header {
   padding: 5px 0px 5px 5px;
   font-family: 'Bebas Neue', cursive;
   font-size:1.2rem;
-  border-width: 1px 0px 0px 0px;
+  border-width: 0px ;
   border-style: solid;
   border-color: gold;
   background-color: gold;
 }
 
-}
-.card-body {
-  border-width: 1px 0px 1px 0px;
-  border-style: solid;
-  border-color: gold;
-  padding: 5px 0px 5px 5px;
-  font-size:1.2rem;
-  text-align: center;
-  background-color: rgba(11, 11, 77, 0.4);
+.card-img-top {
+  width:100%;
+  height:auto;
 }
 
 .card-text {
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 0px 0px 0px 0px;
   font-family: 'Bebas Neue', cursive;
-  font-size:1.3rem;  
-  padding: 5px 0px 5px 5px;
-}
-
-
-.card-img-top {
-  width:90%;
-  height:auto;
+  color: #000000;
+  vertical-align: middle;
+  text-align: left;
+  font-size: 1.2rem;
 }
 
 /*----footer copy----*/
@@ -171,4 +162,29 @@ a:active {
   font-size:0.8rem;
   color: darkgray;
 
+}
+
+/*----form----*/
+input[type=text], select, textarea {
+  width: 60%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
 }
